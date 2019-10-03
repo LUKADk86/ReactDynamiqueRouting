@@ -1,0 +1,25 @@
+.navbar{
+  overflow: hidden;
+  background-color: green;
+  color: white;
+}
+.list{
+  display: flex;
+  margin-left: 80%;
+  list-style-type:none;
+
+}
+.list li{
+  padding-left: 5%;
+
+}
+.list li a {
+  color: white;
+  text-decoration: none;
+}
+.list li a:hover{
+  color: yellow;
+}
+.active{
+  background-color: red;
+}
